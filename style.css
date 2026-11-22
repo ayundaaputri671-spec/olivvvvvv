@@ -1,0 +1,1076 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --green: #79658F;
+    --light-green: #C7B5D8;
+    --cream: #F7F1E8;
+    --orange: #C58FA5;
+    --dark: #29213D;
+    --white: #ffffff;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: var(--cream);
+    color: var(--dark);
+    line-height: 1.7;
+}
+
+nav {
+    background: var(--cream);
+    padding: 18px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 12px #29213D15;
+}
+
+.logo {
+    font-size: 23px;
+    font-weight: 800;
+    color: var(--green);
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--dark);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: var(--orange);
+}
+
+.hero {
+    min-height: 570px;
+    padding: 100px 9%;
+    display: flex;
+    align-items: center;
+    background:
+    radial-gradient(circle at 85% 25%, #79658F 0%, transparent 35%),
+    linear-gradient(120deg, #29213D, #57466D);
+    color: white;
+}
+
+.hero-content {
+    max-width: 700px;
+}
+
+.tag {
+    color: #DCCBEA;
+    letter-spacing: 4px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.hero h1 {
+    font-size: clamp(43px, 7vw, 76px);
+    line-height: 1.1;
+    margin: 22px 0;
+}
+
+.hero h1 span {
+    color: #D8B7C7;
+}
+
+.hero p {
+    color: #EAE3EF;
+    max-width: 570px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 13px 25px;
+    border-radius: 30px;
+    background: var(--orange);
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.btn:hover {
+    background: #A66E88;
+    transform: translateY(-3px);
+}
+
+section {
+    padding: 80px 8%;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.section-title small {
+    color: var(--orange);
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.section-title h2 {
+    font-size: 34px;
+    color: var(--green);
+    margin: 10px 0;
+}
+
+.section-title p {
+    color: #81778A;
+}
+
+.problem {
+    background: #EDE5F1;
+}
+
+.problem-box {
+    max-width: 950px;
+    margin: auto;
+    padding: 35px;
+    background: white;
+    border-left: 5px solid var(--green);
+    border-radius: 12px;
+}
+
+.problem-box h3 {
+    color: var(--green);
+    margin-bottom: 12px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 22px;
+}
+
+.card {
+    background: white;
+    border: 1px solid #E4DAEA;
+    border-radius: 14px;
+    padding: 27px;
+    transition: .3s;
+}
+
+.card:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 10px 25px #79658F25;
+}
+
+.number {
+    font-size: 32px;
+    font-weight: bold;
+    color: var(--orange);
+}
+
+.card h3 {
+    color: var(--green);
+    margin: 10px 0;
+}
+
+.card p {
+    font-size: 14px;
+    color: #81778A;
+}
+
+.products {
+    background: #EDE5F1;
+}
+
+.product-card {
+    padding: 0;
+    overflow: hidden;
+}
+
+.product-img {
+    height: 50px;
+    background: linear-gradient(135deg, #C7B5D8, #E9D5DF);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 75px;
+}
+
+.product-info {
+    padding: 22px;
+}
+
+.product-info small {
+    color: var(--orange);
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --green: #79658F;
+    --light-green: #C7B5D8;
+    --cream: #F7F1E8;
+    --orange: #C58FA5;
+    --dark: #29213D;
+    --white: #ffffff;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: var(--cream);
+    color: var(--dark);
+    line-height: 1.7;
+}
+
+nav {
+    background: var(--cream);
+    padding: 18px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 12px #29213D15;
+}
+
+.logo {
+    font-size: 23px;
+    font-weight: 800;
+    color: var(--green);
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--dark);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: var(--orange);
+}
+
+.hero {
+    min-height: 570px;
+    padding: 100px 9%;
+    display: flex;
+    align-items: center;
+    background:
+    radial-gradient(circle at 85% 25%, #79658F 0%, transparent 35%),
+    linear-gradient(120deg, #29213D, #57466D);
+    color: white;
+}
+
+.hero-content {
+    max-width: 700px;
+}
+
+.tag {
+    color: #DCCBEA;
+    letter-spacing: 4px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.hero h1 {
+    font-size: clamp(43px, 7vw, 76px);
+    line-height: 1.1;
+    margin: 22px 0;
+}
+
+.hero h1 span {
+    color: #D8B7C7;
+}
+
+.hero p {
+    color: #EAE3EF;
+    max-width: 570px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 13px 25px;
+    border-radius: 30px;
+    background: var(--orange);
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.btn:hover {
+    background: #A66E88;
+    transform: translateY(-3px);
+}
+
+section {
+    padding: 80px 8%;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.section-title small {
+    color: var(--orange);
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.section-title h2 {
+    font-size: 34px;
+    color: var(--green);
+    margin: 10px 0;
+}
+
+.section-title p {
+    color: #81778A;
+}
+
+.problem {
+    background: #EDE5F1;
+}
+
+.problem-box {
+    max-width: 950px;
+    margin: auto;
+    padding: 35px;
+    background: white;
+    border-left: 5px solid var(--green);
+    border-radius: 12px;
+}
+
+.problem-box h3 {
+    color: var(--green);
+    margin-bottom: 12px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 22px;
+}
+
+.card {
+    background: white;
+    border: 1px solid #E4DAEA;
+    border-radius: 14px;
+    padding: 27px;
+    transition: .3s;
+}
+
+.card:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 10px 25px #79658F25;
+}
+
+.number {
+    font-size: 32px;
+    font-weight: bold;
+    color: var(--orange);
+}
+
+.card h3 {
+    color: var(--green);
+    margin: 10px 0;
+}
+
+.card p {
+    font-size: 14px;
+    color: #81778A;
+}
+
+.products {
+    background: #EDE5F1;
+}
+
+.product-card {
+    padding: 0;
+    overflow: hidden;
+}
+
+.product-img {
+    height: 180px;
+    background: linear-gradient(135deg, #C7B5D8, #E9D5DF);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 75px;
+}
+
+.product-info {
+    padding: 22px;
+}
+
+.product-info small {
+    color: var(--orange);
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.subject-card {
+    background: white;
+    border-radius: 14px;
+    padding: 28px;
+    border-bottom: 4px solid var(--light-green);
+}
+
+.subject-card h3 {
+    color: var(--green);
+    margin-bottom: 12px;
+}
+
+.subject-card p,
+.subject-card li {
+    color: #81778A;
+    font-size: 14px;
+}
+
+.subject-card ul {
+    margin: 12px 0 0 20px;
+}
+
+.team {
+    background: #EDE5F1;
+}
+
+.team-card {
+    text-align: center;
+}
+
+.avatar {
+    width: 100%;
+    height: 150px;
+    margin: auto auto 18px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #79658F, #C7B5D8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+}
+
+.contact-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+}
+
+.contact-info,
+.contact-form {
+    background: white;
+    padding: 30px;
+    border-radius: 14px;
+}
+
+.contact-info h3 {
+    color: var(--green);
+}
+
+.contact-info p {
+    margin-top: 15px;
+    color: #81778A;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 13px;
+    margin: 10px 0;
+    border: 1px solid #DCCFE5;
+    border-radius: 8px;
+    background: #FAF7FC;
+    font-family: Arial;
+}
+
+textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+footer {
+    background: var(--dark);
+    color: white;
+    padding: 35px 8%;
+    text-align: center;
+}
+
+footer span {
+    color: #D8B7C7;
+}
+
+@media(max-width: 768px) {
+    nav {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    nav a {
+        font-size: 12px;
+    }
+
+    .hero {
+        min-height: 480px;
+        padding: 75px 7%;
+    }
+
+    .hero h1 {
+        font-size: 44px;
+    }
+
+    .contact-container {
+        grid-template-columns: 1fr;
+    }
+
+    section {
+        padding: 60px 7%;
+    }
+}
+
+.subject-card {
+    background: white;
+    border-radius: 14px;
+    padding: 28px;
+    border-bottom: 4px solid var(--light-green);
+}
+
+.subject-card h3 {
+    color: var(--green);
+    margin-bottom: 12px;
+}
+
+.subject-card p,
+.subject-card li {
+    color: #81778A;
+    font-size: 14px;
+}
+
+.subject-card ul {
+    margin: 12px 0 0 20px;
+}
+
+.team {
+    background: #EDE5F1;
+}
+
+.team-card {
+    text-align: center;
+}
+
+.avatar {
+    width: 95px;
+    height: 95px;
+    margin: auto auto 18px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #79658F, #C7B5D8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+}
+
+.contact-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+}
+
+.contact-info,
+.contact-form {
+    background: white;
+    padding: 30px;
+    border-radius: 14px;
+}
+
+.contact-info h3 {
+    color: var(--green);
+}
+
+.contact-info p {
+    margin-top: 15px;
+    color: #81778A;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 13px;
+    margin: 10px 0;
+    border: 1px solid #DCCFE5;
+    border-radius: 8px;
+    background: #FAF7FC;
+    font-family: Arial;
+}
+
+textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+footer {
+    background: var(--dark);
+    color: white;
+    padding: 35px 8%;
+    text-align: center;
+}
+
+footer span {
+    color: #D8B7C7;
+}
+
+@media(max-width: 768px) {
+    nav {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 13px;
+    }
+
+    nav a {
+        font-size: 12px;
+    }
+
+    .hero {
+        min-height: 480px;
+        padding: 75px 7%;
+    }
+
+    .hero h1 {
+        font-size: 44px;
+    }
+
+    .contact-container {
+        grid-template-columns: 1fr;
+    }
+
+    section {
+        padding: 60px 7%;
+    }
+}
+
+/* Merapikan kotak materi */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    align-items: stretch;
+}
+
+/* Mengatur kotak */
+.math-card {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+/* Mengatur gambar agar pas dalam kotak */
+.math-card img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    display: block;
+    border-radius: 12px;
+    margin: 0 auto 15px;
+}
+
+/* Mengatur tampilan HP */
+@media (max-width: 768px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* MAPEL KOLABORASI */
+.mapel-menu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 35px;
+}
+
+.mapel-menu a {
+    text-decoration: none;
+    background: var(--green);
+    color: white;
+    padding: 13px 22px;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: .3s;
+}
+
+.mapel-menu a:hover {
+    background: var(--orange);
+    transform: translateY(-4px);
+}
+
+.mapel-content {
+    display: none;
+    max-width: 900px;
+    margin: auto;
+    padding: 35px;
+    background: white;
+    border-radius: 14px;
+    border-bottom: 4px solid var(--light-green);
+    box-shadow: 0 5px 20px #536b501c;
+    scroll-margin-top: 100px;
+}
+
+.mapel-content:target {
+    display: block;
+}
+
+#mapel:not(:has(.mapel-content:target))
+#matematika {
+    display: block;
+}
+
+.mapel-content h2 {
+    color: var(--green);
+    margin-bottom: 15px;
+}
+
+.mapel-content h3 {
+    color: var(--orange);
+    margin-bottom: 10px;
+}
+
+.mapel-content p,
+.mapel-content li {
+    color: #777e70;
+    font-size: 14px;
+}
+
+.mapel-content ul {
+    margin: 12px 0 0 20px;
+}
+
+/* FOTO MATEMATIKA */
+.foto-matematika {
+    width: 100%;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.foto-matematika img {
+    width: 100%;
+    max-width: 650px;
+    height: auto;
+    object-fit: contain;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px #00000015;
+}
+
+/* DETAIL PERHITUNGAN */
+.detail-perhitungan {
+    margin-top: 25px;
+    background: #f6f3e9;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid #d9dfd0;
+}
+
+.detail-perhitungan summary {
+    padding: 16px 20px;
+    background: var(--green);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.detail-perhitungan summary:hover {
+    background: var(--orange);
+}
+
+.perhitungan {
+    padding: 25px;
+    background: white;
+}
+
+.perhitungan h4 {
+    color: var(--green);
+    margin: 18px 0 8px;
+}
+
+.perhitungan p {
+    color: #777e70;
+    font-size: 14px;
+    line-height: 1.9;
+}
+
+.perhitungan strong {
+    color: var(--green);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f9;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+section#mapel {
+    max-width: 800px;
+    margin: 0 auto;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.mapel-content {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.mapel-content h2 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 8px;
+}
+
+.mapel-content h3 {
+    color: #34495e;
+    margin: 15px 0 8px;
+}
+
+.mapel-content p {
+    color: #555;
+    margin-bottom: 12px;
+    text-align: justify;
+}
+
+.mapel-content ul {
+    margin-left: 25px;
+    color: #555;
+}
+
+.mapel-content li {
+    margin: 5px 0;
+}
+
+/* Foto Anggota */
+.avatar-img {
+    width: 180px;
+    height: 160px;
+    border-radius: 50%; /* Membuat foto bulat */
+    object-fit: cover; /* Memastikan foto tidak gepeng */
+    border: 4px solid #3498db;
+    margin-bottom: 15px;
+}
+
+/* === Membuat Kartu Anggota Berada di Tengah === */
+.team .grid {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    min-height: auto !important;
+}
+
+.team-card {
+    text-align: center !important;
+}
+
+.team-card .email {
+    font-size: 0.9em;
+    color: #3498db;
+    text-decoration: none;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+.team-card .email:hover {
+    text-decoration: underline;
+}
+
+/* ===== BAGIAN KONTAK ===== */
+.contact-section {
+    background-color: #683f67; /* Warna ungu muda */
+    color: #a44796; !important; /* Biru - dipaksa terlihat */
+    padding: 60px 20px;
+    font-family: Arial, sans-serif;
+}
+
+.contact-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    align-items: start;
+}
+
+/* Info Kontak Kiri */
+.subheading {
+    color: #c77fb2; /* Warna oranye muda */
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size: 0.95em;
+}
+
+.contact-info h2 {
+    font-size: 2.2em;
+    margin: 10px 0 15px;
+}
+
+.contact-info > p {
+    color: #59789f;
+    line-height: 1.7;
+    margin-bottom: 35px;
+}
+
+.contact-info h3 {
+    font-size: 1.4em;
+    margin-bottom: 20px;
+}
+
+.info-item {
+    color: #638ab9;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+.info-item strong {
+    color: #577899;
+}
+
+/* Form Kartu Kanan */
+.contact-form-card {
+    background-color: #d1a6cc;
+    border-radius: 14px;
+    padding: 30px;
+    color: #333333;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.contact-form label {
+    display: block;
+    font-weight: 600;
+    margin: 18px 0 8px;
+    font-size: 0.95em;
+    color: #020b14;
+}
+
+.contact-form label:first-child {
+    margin-top: 0;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 8px;
+    font-size: 0.95em;
+    background-color: #f8f2f6;
+    box-sizing: border-box;
+    outline: none;
+    transition: box-shadow 0.2s;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    box-shadow: 0 0 0 2px #f0d398;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.whatsapp-btn {
+    width: 100%;
+    background-color: #fdfcf9;
+    color: #2c2c2c;
+    font-weight: bold;
+    border: none;
+    padding: 14px;
+    border-radius: 8px;
+    font-size: 1em;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.whatsapp-btn:hover {
+    background-color: #efc1e4;
+}
+
+/* Responsif — di HP jadi bertumpuk */
+@media (max-width: 768px) {
+    .contact-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    width: 100%;
+}
+
+.product-card {
+    width: 100%;
+}
+
+.product-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
